@@ -1,0 +1,240 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box ;
+}
+
+.firstSection{
+
+    height:120vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(213, 232, 247);
+}
+nav{
+    
+    height:80px;
+    width:100%;
+}
+nav h1{
+    width: 227px;
+    height: 50px;
+    border-radius: 10px;
+    background-color:  rgb(194, 219, 240);
+    position:relative;
+    top:15px;
+    left:65px;
+    float:left;
+    line-height: 50px;
+    font-size: 35px;
+    font-size: inline;
+    color:rgb(180, 98, 39);
+    padding-left:15px;
+}
+nav ul{
+    float:right;
+    line-height: 80px;
+    
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding-left: 60px;
+}
+nav ul li a{
+    color: rgb(243, 93, 7);
+    text-decoration: none;
+    border-radius: 5px;
+    padding:7px 8px;
+    border:0.1px solid rgb(184, 174, 174);
+}
+nav ul li a:hover{
+    background-color: rgb(253, 120, 3);
+    transition: 1s ease;
+    border: none;
+    color: white;
+}
+
+.details{
+    width: 700px;
+    padding:130px;
+    text-align: left;
+    position:relative;
+
+}
+.backgnd{
+    position: absolute;
+    margin-left: 110px;
+}
+
+.details h1{
+    font-size: 50px;
+    color: rgb(248, 5, 90);
+    letter-spacing: 1px;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+.details p{
+    font-size: 18px;
+    color: rgb(28, 27, 21);
+    line-height: 1;
+    margin-bottom: 50px;
+
+}
+.details button{
+    color: rgb(250, 249, 249);
+    padding:12px 25px;
+    letter-spacing: 1.5px;
+    border:1px solid rgb(11, 11, 11);
+    border-radius: 10px;
+    background-color:rgb(22, 94, 14);
+    font-weight: 200;
+}
+.details button:hover{
+    background-color:rgb(175, 4, 138);
+    transition: 1s ease;
+}
+
+.logo{
+    border:1px solid black;
+    margin-right: 80px;
+}
+.logo:hover{
+    background-color: black;
+}
+.secondSection{
+    height:65vh;
+    background-color: rgb(213, 232, 247);
+}
+.about{
+    font-family: 'Times New Roman', Times, serif;
+}
+.about h1{
+    border:none;
+    width:475px;
+    height: 45px;
+    border-radius: 50px;
+    position:relative;
+    left:330px;
+    background-color: rgb(194, 219, 240);
+    color:rgb(1, 50, 52);
+    padding:15px 0px 15px 180px;
+    box-sizing: content-box;
+    font-size: 50px;
+    
+}
+.about p{
+    color:rgb(34, 30, 30);
+    line-height: 20px;
+    margin:30px;
+    
+    
+}
+.thirdSection{
+    height:85vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(213, 232, 247);
+    width: 100%;
+}
+.heading3{
+    border:none;
+    width:50%;
+    height: 80px;
+    border-radius: 50px;
+    position:relative;
+    left:340px;
+    bottom:20px;
+    background-color: rgb(194, 219, 240);
+    color:rgb(1, 50, 52);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    padding:15px 0px 10px 180px;
+}
+
+footer{
+    height: 13vh;
+    color:white;
+    background-color: rgb(110, 107, 107);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contact{
+    padding:20px;
+}
+.email{
+    padding-right:20px;
+}
+.row{
+    margin:10px 0px 10px 70px;
+}
+.column {
+    width: 24.35%;
+    margin-bottom: 16px;
+    padding: 0 50px 0 40px;
+    display:inline-block;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  /* Some left and right padding inside the container */
+  .container {
+    padding: 0 16px;
+  }
+  
+  /* Clear floats */
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 80px;
+    margin: 5px;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  .button1{
+    border:0.5px solid rgb(197, 195, 195);
+    color: black;
+    background-color: rgb(244, 236, 236);
+    padding: 7px 8px;
+    border-radius: 5px;
+    margin:10px;
+  }
+  .button1:hover{
+    background-color: #FF69B4;
+    color:white;
+    border: none;
+  }
+  .newBtn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+  }
+  #btn{
+    background-color: antiquewhite;
+    color: rgb(5, 5, 5);
+    border: none;
+    padding:10px 11px;
+    border-radius: 10px;
+    font-weight:300;
+  }
+  #btn:hover{
+    color:rgb(243, 8, 8);
+  }
